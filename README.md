@@ -98,7 +98,8 @@ You need to be in the directory that contains the manage.py file (the djangogirl
 Explain how to run the automated tests for this system
 
 ![Login Page](https://user-images.githubusercontent.com/29943381/55633462-0cc16a00-57da-11e9-92da-7e17f5f5c692.png)
-![]](https://user-images.githubusercontent.com/29943381/55633838-d506f200-57da-11e9-918c-111d968fc8d0.png)
+
+![](https://user-images.githubusercontent.com/29943381/55633838-d506f200-57da-11e9-918c-111d968fc8d0.png)
 
 
 ### Break down into end to end tests
