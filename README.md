@@ -20,10 +20,11 @@ Give examples
 
 A step by step series of examples that tell you how to get a development env running
 
-Say what the step will be
+It is very likely that you already have Python installed out of the box. To check if you have it installed (and which version it is), open a console and type the following command:
 
 ```
-Give the example
+$ python3 --version
+Python 3.6.1
 ```
 
 And repeat
