@@ -105,7 +105,7 @@ Explain how to run the automated tests for this system
 
 ![](https://user-images.githubusercontent.com/29943381/55634446-2bc0fb80-57dc-11e9-8448-8070537c41bd.png)
 
-
+![](https://user-images.githubusercontent.com/29943381/55634597-7478b480-57dc-11e9-994c-e3459bb35b75.png)
 
 ### Break down into end to end tests
 
