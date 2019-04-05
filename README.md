@@ -47,11 +47,39 @@ Note: if you are using an older version of Windows (7, Vista, or any older versi
     2)install an older version of Python, e.g., 3.4.6.
 
 If you install an older version of Python, the installation screen may look a bit different than shown above. Make sure you scroll down to see "Add python.exe to Path", then click the button on the left and pick "Will be installed on local hard drive":
-```
-until finished
-```
 
-End with an example of getting some data out of the system or using it for a little demo
+### Virtual environment
+All you need to do is find a directory in which you want to create the virtualenv; your home directory, for example. On Windows, it might look like C:\Users\Name\ (where Name is the name of your login).
+
+We will make a virtualenv called myvenv. The general command will be in the format:
+```
+$ python3 -m venv myvenv
+
+```
+### Working with virtualenv
+The command above will create a directory called myvenv (or whatever name you chose) that contains our virtual environment (basically a bunch of directory and files).
+
+### Working with virtualenv: Windows
+Start your virtual environment by running:
+```
+C:\Users\Name\SIH_TEAM_GULLY_DEVS_R19_MINISTRY OF RAILWAYS_BB4> myvenv\Scripts\activate
+```
+### Working with virtualenv: Linux and OS X
+Start your virtual environment by running:
+```
+$ source myvenv/bin/activate
+```
+### Installing Django
+Now that you have your virtualenv started, you can install Django.
+
+Before we do that, we should make sure we have the latest version of pip, the software that we use to install Django:
+```
+(myvenv) ~$ python -m pip install --upgrade pip
+```
+Now, run pip install -r requirements.txt to install Django.
+```
+(myvenv) ~$ pip install -r requirements.txt
+```
 
 ## Running the tests
 
