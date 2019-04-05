@@ -1,7 +1,9 @@
 # Railway_News_System
 
-One Paragraph of project description goes here
-
+This project is done for SIH-2019 under Central Ministry where Central Ministry have two problems and their problem statements are
+    (a) The work of choosing newspapers for every advertisement to be released is done manually.The rate/circulation of newspaper is checked manually from DAVP website ,whichis laborious and also is prone to error is noting down advertisement rate.
+    (b) It is not feasible to monitor the release of news concerning Ministry of Railway-whether positive or negative due to lack of resources/staff. Using digital technology,a system to be devised to inform/give notification in real time or within 12 Hrs.
+    
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
