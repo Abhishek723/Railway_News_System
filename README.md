@@ -80,7 +80,19 @@ Now, run pip install -r requirements.txt to install Django.
 ```
 (myvenv) ~$ pip install -r requirements.txt
 ```
-
+### Migrate Database
+```
+(myvenv) ~$ python manage.py migrate
+```
+### Migrations
+```
+(myvenv) ~$ python manage.py makemigrations
+```
+### Starting the web server
+You need to be in the directory that contains the manage.py file (the djangogirls directory). In the console, we can start the web server by running python manage.py runserver:
+```
+(myvenv) ~/SIH_TEAM_GULLY_DEVS_R19_MINISTRY OF RAILWAYS_BB4$ python manage.py runserver
+```
 ## Running the tests
 
 Explain how to run the automated tests for this system
